@@ -10,7 +10,7 @@ export class AppComponent {
   @ViewChild(ColorDirective)
   private colorDirective: ColorDirective;
 
-  @ViewChild('ulist')             //template reference
+  @ViewChild('ulist')            //template reference
   private ulist: ElementRef
 
   constructor(private render: Renderer2){
